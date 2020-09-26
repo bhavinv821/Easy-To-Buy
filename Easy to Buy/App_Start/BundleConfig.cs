@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
-namespace Easy_to_Buy
+namespace HPlus.Ecommerce
 {
     public class BundleConfig
     {
@@ -23,6 +22,7 @@ namespace Easy_to_Buy
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
+                      "~/Content/font-awesome.min.css",
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
         }
